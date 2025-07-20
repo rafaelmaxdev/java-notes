@@ -13,8 +13,8 @@ int age = 10;
 
 #### Concatenar texto com variáveis +
 ```java
-int age = 10
-System.out.println("A idade é" + age)
+int age = 10;
+System.out.println("A idade é" + age);
 ```
 
-![[Pasted image 20250720174204.png]]
+![[tabela-tipos-primitvos.png]]
