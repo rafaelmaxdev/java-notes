@@ -1,0 +1,1 @@
+Começa com um dos [[Tipos primitivos]] e letra minúscula e as próximas palavras começando em maiúscula
