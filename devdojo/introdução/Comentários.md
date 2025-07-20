@@ -17,4 +17,4 @@ múltiplas linhas
 /*
 ```
 
-Não é recomendado comentar o código, no máximo usar o javadoc em casos específicos
+Não é recomendado comentar o código, em casos específicos usar o javadoc em casos específicos de métodos públicos
