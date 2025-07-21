@@ -20,4 +20,8 @@ Retorna um boolean true ou false
 
 && AND
 
+|| OR
 
+### Atribuição
+=, +=, -=, *=, /=, %=
+++ -- ** // %%
