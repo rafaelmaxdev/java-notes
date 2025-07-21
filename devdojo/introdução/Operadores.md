@@ -17,3 +17,7 @@ System.out.println(rest); // 0
 ### Lógicos
 <=, >=, <, >, == , !=
 Retorna um boolean true ou false
+
+&& AND
+
+
