@@ -30,3 +30,4 @@ int counter = 1;
 counter++;  
 System.out.println(counter); // 2
 ```
+

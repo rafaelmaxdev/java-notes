@@ -1,4 +1,4 @@
-if - condição (se)
+### if - condição (se)
 ```java
 public static void main(String[] args) {  
     int age = 15;  
@@ -11,4 +11,23 @@ public static void main(String[] args) {
     }
 ```
 
-else - se não
+### else - se não
+#### else if - se não se
+
+```java
+public static void main(String[] args) {  
+    int age = 15;  
+    String category;  
+  
+    if (age < 15) {  
+        category = "Children's category";  
+    } else if (age >= 15 && age < 18) {  
+        category = "Youth category";  
+    }    else {  
+        category = "Adult category";  
+    }  
+    System.out.println(category);  
+}
+```
+
+### 
