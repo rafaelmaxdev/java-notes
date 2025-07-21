@@ -24,4 +24,9 @@ Retorna um boolean true ou false
 
 ### Atribuição
 =, +=, -=, *=, /=, %=
-++ -- ** // %%
+++ --
+```java
+int counter = 1;  
+counter++;  
+System.out.println(counter); // 2
+```
