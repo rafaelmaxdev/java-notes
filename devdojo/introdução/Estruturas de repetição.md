@@ -38,4 +38,4 @@ O **`while`** é ideal quando não se sabe exatamente quantas vezes o loop vai r
 Já o **`for`** é mais adequado quando o número de repetições é conhecido ou facilmente determinado, como em loops que dependem de um contador (por exemplo, percorrer os elementos de um array). Ele é mais eficiente e claro quando o controle do loop envolve inicialização, condição e incremento/decremento dentro de uma estrutura compacta.
 
 ### break
-Interrompe uma estrutura de repetição, assim como no [[Switch]]
+Interrompe uma das [[Estruturas de repetição]] ou um [[Switch]]
