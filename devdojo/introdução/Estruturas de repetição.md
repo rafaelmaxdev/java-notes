@@ -28,12 +28,14 @@ No while já que a condição é falsa não vai nem executar, enquanto no do whi
 
 ### for
 ```java
-
+for (int i = 0; i < 10; i++) {  
+    System.out.println("For " + i);  
+}
 ```
-
-
-
-### while ou for
+### while vs for
 O **`while`** é ideal quando não se sabe exatamente quantas vezes o loop vai rodar, mas se tem uma condição que precisa ser verificada a cada iteração. Ele é útil em situações como leitura de dados até que uma condição seja atendida (por exemplo, ler até o usuário digitar "sair").
 
 Já o **`for`** é mais adequado quando o número de repetições é conhecido ou facilmente determinado, como em loops que dependem de um contador (por exemplo, percorrer os elementos de um array). Ele é mais eficiente e claro quando o controle do loop envolve inicialização, condição e incremento/decremento dentro de uma estrutura compacta.
+
+### break
+Interrompe uma estrutura de repetição, assim como no [[Switch]]
