@@ -39,3 +39,16 @@ Já o **`for`** é mais adequado quando o número de repetições é conhecido o
 
 ### break
 Interrompe uma das [[Estruturas de repetição]] ou um [[Switch]]
+
+### continue
+Permite que o fluxo continue mesmo que uma [[Estruturas condicionais]] seja falsa
+```java
+    double totalValue = 30000;  
+    for(int i = (int) totalValue; i >= 1; i--) {  
+        double installmentValue = totalValue / i;  
+        if (installmentValue < 1000) {  
+            continue;  
+        }        System.out.println("Installment " + i + " R$ " + installmentValue);  
+    }}
+```
+O i vai vai pular todas as parcelas menores que 1000 e só imprime as que são maiores ou iguais, já que o continue volta para o loop até que seja true e execute o print 
