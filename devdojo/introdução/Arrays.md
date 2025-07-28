@@ -2,6 +2,7 @@
 - As posições (índices) começam em **0**
 - Se nenhum valor for atribuído, o **valor padrão** será usado (ex: `0` para `int`, `\u0000` para char, `null` para objetos, [[String]], reference, `false` para `boolean`)
 - Se tentar acessar uma posição fora do limite, será lançado um erro **`ArrayIndexOutOfBoundsException`**
+- O tamanho dos [[Arrays]] não pode aumentar dinamicamente
 ### Sintaxe
 Essa variável é do tipo **reference** e faz referência a um objeto em memória
 ```java
