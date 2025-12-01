@@ -40,12 +40,10 @@ int[] numbers3 = new int[]{5, 4, 3 ,2, 1};
 ### For each
 Percorre todos os elementos do array
 ```java
-public static void main(String[] args) {  
-    int[] numbers = new int [3];  
-    int[] numbers2 = {1,2,3,4,5};  
-    int[] numbers3 = new int[]{5, 4, 3 ,2, 1};  
+public static void main(String[] args) {   
+    int[] numbers = new int[]{5, 4, 3 ,2, 1};  
   
-    for (int num : numbers3) {  
+    for (int num : numbers) {  
         System.out.println(num);  
     }}
 ```
