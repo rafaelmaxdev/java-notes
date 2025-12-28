@@ -47,3 +47,6 @@ public static void main(String[] args) {
         System.out.println(num);  
     }}
 ```
+
+### Arrays Multidimensionais
+Arrays que ligam conteúdos entre elas
